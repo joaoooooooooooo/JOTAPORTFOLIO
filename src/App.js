@@ -56,11 +56,7 @@ function Box(props) {
         >
         <span className='me' > <p>hi, I'm a digital designer,</p> 
 
-        <p>VAI TOMA N0 CU MANU</p>
-        <p>VAI TOMA N0 CU MANU</p>
-        <p>VAI TOMA N0 CU MANU</p>
-        <p>VAI TOMA N0 CU MANU</p>
-        <p>VAI TOMA N0 CU MANU</p>
+      
         <p></p></span>
 
 
