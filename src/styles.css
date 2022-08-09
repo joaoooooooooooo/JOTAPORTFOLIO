@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "outward-block";
+  src: url(/src/outward-block.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSauceOne";
+  src: url(/src/OpenSauceOne-Light.ttf);
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  position: fixed !important;
+  color: rgb(255, 255, 255);
+  bottom: 40px;
+  left: 40px;
+  font-family: "OpenSauceOne" ;
+}
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  font-family: "OpenSauceOne";
+  text-transform: uppercase;
+  color: #e0e0e0;
+}
+
+.menu__logo, .menu__items-link {
+  padding: 40px;
+}
+
+.menu__logo a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__items {
+  display: flex;
+}
+
+.menu__items-link a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu__items-link.active a {
+  text-decoration: underline;
+}
+body {
+  background: #000000;
+  cursor: grab;
+}
+
+.jota {
+  color: #bebebe;
+  font-family: "outward-block";
+  align-self: center;
+  font-size: 200px;
+  height: 3px;
+  width: 220px;
+
+  user-select: none;
+}
+.jota:hover {
+  color: rgb(196, 136, 224);
+  cursor:pointer;
+}
+.me {
+  font-family: "OpenSauceOne";
+  color: #e9e9e9;
+  font-size: 15px;
+  
+  user-select: none;
+  line-height: 108.3%;
+ letter-spacing: -0.05em;
+}
+.me:hover {
+  color: rgb(196, 136, 224);
+  cursor:pointer;
+  
+}
+
+.works {
+  color: #e0e0e0;
+  font-family: "outward-block";
+  align-self: center;
+  user-select: none;
+  
+  font-size: 200px;
+  height: 3px;
+  width: 220px;
+  
+}
+.works:hover {
+  color:rgb(196, 136, 224);
+  cursor:pointer;
+}
+
+
